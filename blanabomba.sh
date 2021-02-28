@@ -1,7 +1,7 @@
 #!/bin/bash
 # All credits goin to Maz4id and Raducu
-locatie_lista_ports="aici pui locatia de la fisieru cu ports"
-ranges="aici bagi fisieru cu ranges"
+locatie_lista_ports="aici pui locatia de la fisieru cu ports" # location of ranges, like /root/ports.lst
+ranges="aici bagi fisieru cu ranges" # location of ranges, like /root/ranges.lst
 
 while IFS= read -r port
 do
