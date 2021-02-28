@@ -1,6 +1,6 @@
 # ranges-scanner-on-multiple-ports
 
-you will need a vps 
+you will need a vps with root acces, which can sustain masscan with 100k rate.
 
 1. yum install masscan , if it's centos or if it's ubuntu/debian apt-get install masscan
 2. next you will need a list of ports , and a list of ranges
